@@ -10,6 +10,7 @@ dependencies:
   #qr_code_scanner: ^0.7.0
   #mobile_scanner: ^1.1.2
   barcode_scan2: ^4.2.1
+  url_launcher: ^6.0.18
   get: 4.6.5
   flutter: 
     sdk: flutter
