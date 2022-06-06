@@ -29,9 +29,14 @@ class HomeView extends GetView<HomeController> {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          Text(
-              "Para cambiar el estado del baño, debes escanear el QR de la puerta, dependiendo de la situación",
-              style: TextStyle(fontSize: 25)),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Text(
+                  "Para cambiar el estado del baño, \n debes escanear el QR de la puerta, \n dependiendo de la situación",
+                  style: TextStyle(fontSize: 22)),
+            ],
+          ),
           Obx(() => circleColor(controller.result.value)),
           Obx(() => Text(
                 controller.result.value,
