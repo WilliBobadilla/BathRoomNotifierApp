@@ -12,7 +12,8 @@ App to notify the status of the bathroom, the idea is to scan a QR code when you
 
 # TODO :page_with_curl:
 1. set up the real time database
-
+2. Improve UI
+3. Add more information in readme
 
 # Author :man:
 
