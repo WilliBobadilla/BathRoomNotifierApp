@@ -9,11 +9,16 @@ App to notify the status of the bathroom, the idea is to scan a QR code when you
 <img src="https://github.com/WilliBobadilla/BathRoomNotifierApp/blob/master/screenshots/4.png"  width="25%" height="35%" />
 </p>
 
+# Set Up 🔧
+1. Print a Qr with the content "ocupped"
+2. Print a Qr with the content "disoccupied"
+3. Put in the door of the bathroom with some intructions 
 
 # TODO :page_with_curl:
-1. set up the real time database
+1. Set up the real time database
 2. Improve UI
 3. Add more information in readme
+4. Add more pictures of the qr's
 
 # Author :man:
 
