@@ -1,4 +1,8 @@
+import 'dart:convert';
+
 import 'package:barcode_scan2/barcode_scan2.dart';
+import 'package:bath_room_app/app/data/db.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -25,10 +29,19 @@ class HomeController extends GetxController {
     )
   };
 
-  final count = 0.obs;
+  late DatabaseEvent listenStatus;
+  FireBaseConnection fireBaseConn = FireBaseConnection(refDB: "status");
+
+  DatabaseReference databaseReference = FirebaseDatabase.instance.ref();
+  late Stream<DatabaseEvent> stream;
+
   @override
-  void onInit() {
+  void onInit() async {
     super.onInit();
+    stream = databaseReference.onValue;
+    print("Conexxion");
+    print(fireBaseConn);
+    updateData();
   }
 
   @override
@@ -36,9 +49,21 @@ class HomeController extends GetxController {
     super.onReady();
   }
 
+  void updateData() {
+    stream.listen((DatabaseEvent event) {
+      var data = event.snapshot.child("status").value;
+      this.result.value = data.toString(); //update UI
+    });
+  }
+
   void scan() async {
     var result = await BarcodeScanner.scan();
     this.result.value = result.rawContent;
+    this.updateDB(result.rawContent);
+  }
+
+  void updateDB(String status) {
+    databaseReference.update({'status': status});
   }
 
   @override

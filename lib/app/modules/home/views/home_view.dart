@@ -41,7 +41,7 @@ class HomeView extends GetView<HomeController> {
           Obx(() => Text(
                 controller.result.value,
                 style: TextStyle(fontSize: 20),
-              ))
+              )),
         ],
       )),
     );

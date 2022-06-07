@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "964232835762",
+    "project_id": "bathroomapp-211b1",
+    "storage_bucket": "bathroomapp-211b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964232835762:android:73a29b02e79b92fe548fab",
+        "android_client_info": {
+          "package_name": "willi.com.bath_room_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964232835762-d9egcivsgn99so4qsm72iteponho9kq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmzU-WH2BewqRkrJgfiXSiFYV2S0R5cn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964232835762-d9egcivsgn99so4qsm72iteponho9kq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

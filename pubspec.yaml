@@ -7,10 +7,10 @@ environment:
 
 dependencies: 
   cupertino_icons: ^1.0.2
-  #qr_code_scanner: ^0.7.0
-  #mobile_scanner: ^1.1.2
   barcode_scan2: ^4.2.1
   url_launcher: ^6.0.18
+  firebase_database: ^9.0.15
+  firebase_core: ^1.17.1
   get: 4.6.5
   flutter: 
     sdk: flutter
