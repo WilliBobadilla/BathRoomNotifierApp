@@ -11,13 +11,18 @@ App to notify the status of the bathroom, the idea is to scan a QR code when you
 
 # Flyer 
 <p float="left">
-<img src="https://github.com/WilliBobadilla/BathRoomNotifierApp/blob/master/screenshots/5.png"  width="25%" height="35%" />
+<img src="https://github.com/WilliBobadilla/BathRoomNotifierApp/blob/master/screenshots/5.png"  width="50%" height="50%" />
 </p>
 
 # Set Up 🔧
 1. Print a Qr with the content "ocupped"
 2. Print a Qr with the content "disoccupied"
 3. Put in the door of the bathroom with some intructions 
+
+
+# Real Time Database :floppy_disk:
+instruccions here
+
 
 # TODO :page_with_curl:
 1. Set up the real time database
