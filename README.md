@@ -1,4 +1,4 @@
-# bath_room_app 
+# bath_room_app  :toilet:
 App to notify the status of the bathroom, the idea is to scan a QR code when you start to use the bathroom to set the status in the app as **"ocupped"**, and then scan another QR code to set it as **"disoccupied"**. 
 
 ## Version :arrows_clockwise:
