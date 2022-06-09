@@ -20,8 +20,10 @@ App to notify the status of the bathroom, the idea is to scan a QR code when you
 3. Put in the door of the bathroom with some intructions 
 
 
-# Real Time Database :floppy_disk:
-instruccions here
+# Real Time Database config :floppy_disk:
+https://medium.flutterdevs.com/explore-realtime-database-in-flutter-c5870c2b231f
+
+
 
 
 # TODO :page_with_curl:
