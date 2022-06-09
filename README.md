@@ -1,6 +1,15 @@
 # bath_room_app 
 App to notify the status of the bathroom, the idea is to scan a QR code when you start to use the bathroom to set the status in the app as **"ocupped"**, and then scan another QR code to set it as **"disoccupied"**. 
 
+## Version :arrows_clockwise:
+
+:one:.:zero:.:zero:
+
+
+## Apk :iphone:
+
+    apks folder 
+
 ## Screenshots :camera:
 <p float="left">
 <img src="https://github.com/WilliBobadilla/BathRoomNotifierApp/blob/master/screenshots/1.png"  width="25%" height="35%" />
